@@ -1,0 +1,50 @@
+.welcome{
+    height: calc(100vh - 122px);
+    position: relative;
+    &__container{
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1;
+    }
+    &__title{
+        margin: 0 0 45px 0;
+        position: relative;
+        font-weight: 600;
+        font-size: 140px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        &--second{
+            font-size: 95px;
+            color: #B21414;
+        }
+    }
+    &__description{
+        margin: 0;
+        width: 50%;
+        font-size: 30px;
+        color: #E0E1E3;
+    }
+    &__image{
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+    &__scroll{
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: 40px;
+    }
+    &__background{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        object-fit: cover;
+        width: 100%;
+    }
+}
