@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 // создаем переменные для scss
-$black: #000;
+$black: #191C27;
 $white: #fff;
 // создаем переменные для css
 :root{
     --color-white: #{$white};
     --color-black: #{$black};
-    --content-width: 1200px;
+    --content-width: 1450px;
     --container-padding: 15px;
     --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
     --font-size: 16px;
-    --font-family: 'SF UI', sans-serif;
+    --font-family: "Montserrat", sans-serif;
 }

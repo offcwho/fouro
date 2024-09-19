@@ -1,1 +1,42 @@
 // header style
+.header{
+    padding: 30px 0;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+    &__lang{
+        display: flex;
+        gap: 30px;
+    }
+    &__menu{
+        height: 100%;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        gap: 55px;
+        align-items: center;
+    }
+    &__item{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    &__link{
+        font-weight: 400;
+        font-size: 18px;
+        color: #E0E1E3;
+        &--phone{
+            display: flex;
+            align-items: center;
+            gap: 65px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+}

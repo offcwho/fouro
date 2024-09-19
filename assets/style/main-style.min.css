@@ -1,43 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --color-white: #fff;
-  --color-black: #000;
-  --content-width: 1200px;
+  --color-black: #191C27;
+  --content-width: 1450px;
   --container-padding: 15px;
   --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
   --font-size: 16px;
-  --font-family: "SF UI", sans-serif;
+  --font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
-  font-family: "SF UI";
+  font-family: 'SF UI';
   src: url(/assets/fonts/SFUIDisplay-Light.woff2) format(woff2);
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "SF UI";
+  font-family: 'SF UI';
   src: url(/assets/fonts/SFUIDisplay-Regular.woff2) format(woff2);
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "SF UI";
+  font-family: 'SF UI';
   src: url(/assets/fonts/SFUIDisplay-Medium.woff2) format(woff2);
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "SF UI";
+  font-family: 'SF UI';
   src: url(/assets/fonts/SFUIDisplay-Semibold.woff2) format(woff2);
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "SF UI";
+  font-family: 'SF UI';
   src: url(/assets/fonts/SFUIDisplay-Bold.woff2) format(woff2);
   font-weight: 700;
   font-style: normal;
 }
+
 .application {
   width: 100%;
   background-color: var(--color-black);
@@ -45,6 +51,7 @@
   font-family: var(--font-family);
   font-weight: 400;
 }
+
 .application__template {
   width: 100%;
 }
@@ -55,8 +62,59 @@
   margin: 0 auto;
   width: 100%;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 576px) {
   .container {
     background-color: red;
   }
-}/*# sourceMappingURL=main-style.min.css.map */
+}
+
+.header {
+  padding: 30px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.header__lang {
+  display: flex;
+  gap: 30px;
+}
+
+.header__menu {
+  height: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 55px;
+  align-items: center;
+}
+
+.header__item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 18px;
+  color: #E0E1E3;
+}
+
+.header__link--phone {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  font-weight: 600;
+  font-size: 20px;
+}
+/*# sourceMappingURL=main-style.min.css.map */
