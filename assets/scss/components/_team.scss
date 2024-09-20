@@ -1,0 +1,31 @@
+.team{
+    height: calc(100vh);
+    position: relative;
+    &__container{
+        height: 100%;
+        position: relative;
+        padding: 250px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    &__block{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+    }
+    &__title{
+        margin: 0;
+        font-size: 50px;
+        text-transform: uppercase;
+        &--second{
+            color: #B21414;
+        }
+    }
+    &__desc{
+        margin: 0;
+        font-size: 30px;
+        font-weight: 400;
+        color: #E0E1E3;
+    }
+}
