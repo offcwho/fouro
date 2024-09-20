@@ -1,0 +1,34 @@
+.reviews{
+    overflow-x: hidden;
+    &__container{
+        height: 100%;
+        position: initial;
+        padding: 250px 0 0 0;
+    }
+    &__list{
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+    &__item{
+        padding: 40px 35px;
+        background-color: #fff;
+        color: #191C27;
+        border-radius: 20px;
+        height: 333px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &--img{
+            padding: 0;
+        }
+        &-image{
+            width: 100%;
+            height: 100%;
+        }
+        &-title{
+            margin: 0;
+        }
+    }
+}

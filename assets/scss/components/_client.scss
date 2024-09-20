@@ -5,6 +5,8 @@
         padding: 250px 0 0 0;
     }
     &__list{
+        margin: 55px 0 0 0;
+        padding: 0;
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
