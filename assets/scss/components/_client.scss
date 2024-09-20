@@ -1,0 +1,16 @@
+.client{
+    &__container{
+        height: 100%;
+        position: relative;
+        padding: 250px 0 0 0;
+    }
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
