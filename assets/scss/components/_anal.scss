@@ -1,0 +1,12 @@
+.anal{
+    &__container{
+        height: 100%;
+        position: relative;
+        padding: 250px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    &__desc{
+        margin: 0 0 40px 0;
+    }
+}
