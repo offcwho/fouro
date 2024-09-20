@@ -1,0 +1,46 @@
+.ask{
+    background-color: #000;
+    &__container{
+        padding: 300px 0 0 0;
+        height: 100%;
+    }
+    &__block{
+        width: 50%;
+    }
+    &__title{
+        font-weight: 500;
+    }
+    &__list{
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+    &__item{
+        display: flex;
+        width: 100%;
+        &--comment{
+        }
+    }
+    &__icon{
+        padding: 16px 0 16px 25px;
+        background-color: #fff;
+        border-radius: 6px 0 0 6px;
+    }
+    &__input{
+        width: 100%;
+        border-radius: 0 6px 6px 0;
+        height: 100%;
+        padding: 16px 25px 16px 5px;
+        background-color: #fff;
+        border: none;
+        &--comment{
+            padding: 25px;
+            border-radius: 6px;
+            height: 175px;
+            margin: 0 0 16px 0;
+        }
+    }
+    &__button{
+        margin: 35px 0 0 0;
+    }
+}
