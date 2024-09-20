@@ -164,31 +164,6 @@
   position: relative;
 }
 .about__container {
-  position: relative;
   padding: 250px 0 0 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 65px;
-  z-index: 1;
-}
-.about__description {
-  margin: 0;
-  font-size: 30px;
-  line-height: 43.5px;
-}
-.about__tags {
-  margin: 0;
-  padding: 0;
-  gap: 20px 30px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.about__list {
-  padding: 10px 16px;
-  font-size: 30px;
-  background-color: rgba(178, 20, 20, 0.4);
-  border-radius: 30px;
-  width: -moz-fit-content;
-  width: fit-content;
-}/*# sourceMappingURL=main-style.min.css.map */
+}/*# sourceMappingURL=main-style.css.map */

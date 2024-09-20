@@ -2,6 +2,31 @@
     height: calc(100vh);
     position: relative;
     &__container{
+        position: relative;
         padding: 250px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 65px;
+        z-index: 1;
+    }
+    &__description{
+        margin: 0;
+        font-size: 30px;
+        line-height: 43.5px;
+    }
+    &__tags{
+        margin: 0;
+        padding: 0;
+        gap: 20px 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    &__list{
+        padding: 10px 16px;
+        font-size: 30px;
+        background-color: #B2141466;
+        border-radius: 30px;
+        width: fit-content;
     }
 }
