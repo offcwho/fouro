@@ -30,9 +30,12 @@
         width: 100%;
         border-radius: 0 6px 6px 0;
         height: 100%;
-        padding: 16px 25px 16px 5px;
+        padding: 16px 25px 16px 10px;
         background-color: #fff;
         border: none;
+        &:focus-visible{
+            outline: none;
+        }
         &--comment{
             padding: 25px;
             border-radius: 6px;
@@ -42,5 +45,12 @@
     }
     &__button{
         margin: 35px 0 0 0;
+    }
+    &__image{
+        width: 45%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
