@@ -20,6 +20,9 @@
         padding: 0;
         display: flex;
         gap: 20px;
+        @include md{
+            flex-direction: column;
+        }
     }
     &__item{
         display: flex;

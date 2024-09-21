@@ -62,6 +62,11 @@
     padding: 0 100px;
   }
 }
+@media (max-width: 520px) {
+  .container {
+    padding: 0 30px;
+  }
+}
 
 .main__section {
   position: relative;
@@ -86,10 +91,20 @@
   font-size: 50px;
   text-transform: uppercase;
 }
+@media (max-width: 520px) {
+  .title {
+    font-size: 30px;
+  }
+}
 
 .desc {
   font-size: 30px;
   font-weight: 400;
+}
+@media (max-width: 520px) {
+  .desc {
+    font-size: 20px;
+  }
 }
 
 .button {
@@ -207,10 +222,20 @@
   font-size: 95px;
   color: #B21414;
 }
+@media (max-width: 520px) {
+  .welcome__title--second {
+    font-size: 42px;
+  }
+}
 @media (max-width: 1024px) {
   .welcome__title {
     width: 100%;
     text-align: center;
+  }
+}
+@media (max-width: 520px) {
+  .welcome__title {
+    font-size: 70px;
   }
 }
 .welcome__description {
@@ -240,6 +265,7 @@
   left: 50%;
   right: 50%;
   bottom: 40px;
+  transform: translateX(-50%);
 }
 .welcome__background {
   position: fixed;
@@ -270,10 +296,20 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 520px) {
+  .about__container {
+    gap: 30px;
+  }
+}
 .about__description {
   margin: 0;
   font-size: 30px;
   line-height: 43.5px;
+}
+@media (max-width: 520px) {
+  .about__description {
+    font-size: 20px;
+  }
 }
 .about__tags {
   margin: 0;
@@ -290,6 +326,11 @@
   border-radius: 30px;
   width: -moz-fit-content;
   width: fit-content;
+}
+@media (max-width: 520px) {
+  .about__list {
+    font-size: 20px;
+  }
 }
 
 .team {
@@ -321,11 +362,21 @@
 .team__title--second {
   color: #B21414;
 }
+@media (max-width: 520px) {
+  .team__title {
+    font-size: 30px;
+  }
+}
 .team__desc {
   margin: 0;
   font-size: 30px;
   font-weight: 400;
   color: #E0E1E3;
+}
+@media (max-width: 520px) {
+  .team__desc {
+    font-size: 20px;
+  }
 }
 
 .dev {
@@ -406,12 +457,24 @@
 .case__button {
   margin: 70px 0 0 0;
 }
+@media (max-width: 520px) {
+  .case__button {
+    margin: 40px 0 0 0;
+  }
+}
 .case__item {
   padding: 30px 0;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #fff;
   transition: all 0.3s ease-in-out;
+}
+@media (max-width: 520px) {
+  .case__item {
+    padding: 15px 0;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 .case__item:nth-child(1) {
   border-bottom: 1px solid #fff;
@@ -430,18 +493,33 @@
 .case__item:hover .case__item-text {
   color: #B21414;
 }
+@media (max-width: 520px) {
+  .case__item-image {
+    height: 40px;
+  }
+}
 .case__item-left {
   display: flex;
   flex-direction: column;
   gap: 15px;
   max-width: 460px;
 }
+@media (max-width: 520px) {
+  .case__item-left {
+    gap: 5px;
+  }
+}
 .case__item-title {
-  margin: 0 0 15px 0;
+  margin: 0 0 0px 0;
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
+}
+@media (max-width: 520px) {
+  .case__item-title {
+    font-size: 16px;
+  }
 }
 .case__item-desc {
   margin: 0;
@@ -449,16 +527,31 @@
   font-weight: 400;
   letter-spacing: 1%;
 }
+@media (max-width: 520px) {
+  .case__item-desc {
+    font-size: 12px;
+  }
+}
 .case__item-right {
   display: flex;
   align-items: center;
   gap: 58px;
+}
+@media (max-width: 520px) {
+  .case__item-right {
+    gap: 20px;
+  }
 }
 .case__item-text {
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
+}
+@media (max-width: 520px) {
+  .case__item-text {
+    font-size: 12px;
+  }
 }
 
 .client__container {
@@ -477,6 +570,12 @@
 @media (max-width: 768px) {
   .client__list {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 520px) {
+  .client__list {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 .client__item {
@@ -548,6 +647,11 @@
   display: flex;
   gap: 20px;
 }
+@media (max-width: 520px) {
+  .ask__list {
+    flex-direction: column;
+  }
+}
 .ask__item {
   display: flex;
   width: 100%;
@@ -595,6 +699,12 @@
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 50px;
+}
+@media (max-width: 520px) {
+  .footer__container {
+    padding-block: 35px;
+    flex-direction: column;
+  }
 }
 .footer__list {
   padding: 0;

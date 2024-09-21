@@ -23,11 +23,17 @@
         &--second{
             color: #B21414;
         }
+        @include md{
+            font-size: 30px;
+        }
     }
     &__desc{
         margin: 0;
         font-size: 30px;
         font-weight: 400;
         color: #E0E1E3;
+        @include md{
+            font-size: 20px;
+        }
     }
 }

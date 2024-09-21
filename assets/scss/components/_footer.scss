@@ -6,6 +6,10 @@
         justify-content: space-between;
         flex-wrap: wrap;
         row-gap: 50px;
+        @include md{
+            padding-block: 35px;
+            flex-direction: column;
+        }
     }
     &__list{
         padding: 0;

@@ -23,10 +23,16 @@
         &--second{
             font-size: 95px;
             color: #B21414;
+            @include md{
+                font-size: 42px;
+            }
         }
         @include xxl{
             width: 100%;
             text-align: center;
+        }
+        @include md{
+            font-size: 70px;
         }
     }
     &__description{
@@ -52,6 +58,7 @@
         left: 50%;
         right: 50%;
         bottom: 40px;
+        transform: translateX(-50%);
     }
     &__background{
         position: fixed;

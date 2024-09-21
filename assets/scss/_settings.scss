@@ -17,6 +17,9 @@
     @include xxl{
         padding: 0 100px;
     }
+    @include md{
+        padding: 0 30px;
+    }
 }
 .main__section{
     position: relative;
@@ -37,8 +40,14 @@
     margin: 0 0 40px 0;
     font-size: 50px;
     text-transform: uppercase;
+    @include md{
+        font-size: 30px;
+    }
 }
 .desc{
     font-size: 30px;
     font-weight: 400;
+    @include md{
+        font-size: 20px;
+    }
 }
