@@ -1,9 +1,12 @@
 .reviews{
     overflow-x: hidden;
+    background-color: #191C27;
     &__container{
         height: 100%;
         position: initial;
-        padding: 120px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     &__list{
         padding: 0;

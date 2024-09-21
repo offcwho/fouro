@@ -1,9 +1,11 @@
 .dev{
+    background-color: #191C27;
     height: calc(100vh);
     position: relative;
     &__container{
         height: 100%;
-        padding: 250px 0 0 0;
+        display: flex;
+        align-items: center;
     }
     &__desc{
         margin: 0 0 80px 0;

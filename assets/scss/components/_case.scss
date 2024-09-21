@@ -1,6 +1,10 @@
 .case{
+    background-color: #191C27;
     &__container{
-        padding: 170px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;    
     }
     &__list{
         position: relative;
@@ -17,6 +21,9 @@
         bottom: -35px;
         left: 520px;
         height: auto;
+        @include xxl{
+            display: none;
+        }
     }
     &__button{
         margin: 70px 0 0 0;

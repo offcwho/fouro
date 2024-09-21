@@ -7,6 +7,9 @@
         flex-direction: column;
         justify-content: center;
         z-index: 1;
+        @include xxl{
+            align-items: center;
+        }
     }
     &__title{
         margin: 0 0 45px 0;
@@ -21,17 +24,28 @@
             font-size: 95px;
             color: #B21414;
         }
+        @include xxl{
+            width: 100%;
+            text-align: center;
+        }
     }
     &__description{
         margin: 0;
         width: 50%;
         font-size: 30px;
         color: #E0E1E3;
+        @include xxl{
+            width: 100%;
+            text-align: center;
+        }
     }
     &__image{
         position: absolute;
         right: 0;
         z-index: 1;
+        @include xxl{
+            display: none;
+        }
     }
     &__scroll{
         position: absolute;
@@ -40,11 +54,12 @@
         bottom: 40px;
     }
     &__background{
-        position: absolute;
+        position: fixed;
         left: 0;
         bottom: 0;
         object-fit: cover;
         width: 100%;
         opacity: 60%;
+        z-index: -1;
     }
 }

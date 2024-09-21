@@ -14,8 +14,8 @@
     padding: 0 var(--container-padding);
     margin: 0 auto;
     width: 100%;
-    @include md{
-        background-color: red;
+    @include xxl{
+        padding: 0 100px;
     }
 }
 .main__section{
@@ -29,6 +29,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @include xxl{
+        width: 100%;
+    }
 }
 .title{
     margin: 0 0 40px 0;

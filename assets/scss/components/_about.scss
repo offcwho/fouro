@@ -1,13 +1,17 @@
 .about{
     height: calc(100vh);
     position: relative;
+    display: flex;
+    align-items: center;
     &__container{
         position: relative;
-        padding: 250px 0 0 0;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 65px;
         z-index: 1;
+        @include xxl{
+            grid-template-columns: 1fr;
+        }
     }
     &__description{
         margin: 0;  
